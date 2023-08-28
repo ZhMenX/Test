@@ -1,5 +1,5 @@
 # 使用官方的OpenJDK 17镜像作为基础镜像
-FROM adoptopenjdk/openjdk17:alpine-jre
+FROM azul/zulu-openjdk:17
 
 # 设置工作目录
 WORKDIR /app
