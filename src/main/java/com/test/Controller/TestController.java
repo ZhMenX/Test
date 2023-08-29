@@ -18,7 +18,6 @@ public class TestController {
         return "<h1>Hello World</h1>";
     }
 
-    
     @GetMapping("go")
     public String Go(){
         return "<!DOCTYPE html>\n" +
