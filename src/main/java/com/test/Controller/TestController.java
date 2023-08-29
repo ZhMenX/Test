@@ -15,10 +15,9 @@ public class TestController {
 
     @GetMapping("hello")
     public String Hello(){
-        return "<h1>Hello World</h1>";
+        return "<h1>Hello World！</h1>";
     }
 
-    
     @GetMapping("go")
     public String Go(){
         return "<!DOCTYPE html>\n" +
